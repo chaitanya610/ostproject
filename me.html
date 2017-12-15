@@ -1,0 +1,186 @@
+<html>
+<head>
+<title>Resume</title>
+<style>
+#container{
+ position:relative;
+}
+body{
+  background-color:#E9E5E4;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+thead{
+   width:100%;
+ }
+ 
+td{
+    text-align: left;
+    padding: 8px;
+	font-size:20px;
+}
+
+tr{background-color: #bfbdbc}
+
+th {
+    background-color: #000000;
+    color: white;
+	width: 35%;
+	 text-align: left;
+    padding: 8px;
+	font-size:25px;
+} 
+#line
+{
+  position:absolute;
+  top:230;
+} 
+#child
+{
+ position: absolute;
+ top: 0;
+ left:550;
+}
+#child1
+{
+ position: absolute;
+ top: 80;
+ left:30;
+}
+#child2
+{
+ position: absolute;
+ top: 80;
+ right:79;
+}
+#child3
+{
+ position: absolute;
+ top: 250;
+ left:30;
+ padding-right:30;
+}
+#leftel
+{
+  position:absolute;
+  left:0;
+  font-weight:bold;
+}
+#rightel
+{
+  position:absolute;
+  left:600;
+}
+ </style>
+</head>
+<body>
+<script>
+function func(id) {
+     var x = document.getElementById(id);
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+</script>
+<div id="container">
+<div id="child">
+<h1>B. SAI CHAITANYA</h1>
+</div>
+<div id="child1">
+<br></br>
+<address>
+6-356/1,<br>
+Sriharinagar,<br>
+Arilova,<br>
+Visakhapatnam.<br>
+</address>
+</div>
+<div id="child2">
+<br><br>
+<p>Email: saichaitanya080@gmail.com</p>
+<p>Mobile: 9121730961<p>
+</div>
+<div id="child3">
+<h3 onClick="func('co');">CAREER OBJECTIVE</h3>
+<div>
+<p id="co">To work in globally competitive environment on challenging assignments that shall yield the twin benefits of the job satisfaction and a steady-pace professional growth.</p>
+</div><br>
+<h3 onClick="func('eq');">EDUCATIONAL QUALIFICATIONS:</h3>
+<div>
+<table id ="eq">
+  <thead>
+    <th>S.No</th>
+    <th>COURSE</th>
+    <th>UNIVERSITY/COLLEGE</th>
+    <th>DURATION</th>
+    <th>%/CGPA</th>
+ </thead>
+ <tbody>
+ <tr>
+   <td>1</td>
+   <td>B.Tech</td>
+   <td>ANITS</td>
+   <td>2015-2019</td>
+   <td>8.02</td>
+   </tr>
+  <tr>
+  <td>2</td>
+   <td>Intermediate</td>
+   <td>Sri Chaitanya Junior College</td>
+   <td>2013-2015</td>
+   <td>94.6%</td>
+   </tr>
+    <tr>
+  <td>3</td>
+   <td>10th class</td>
+   <td>Sri Chaitanya School</td>
+   <td>2012-2013</td>
+   <td>9.5</td>
+   </tr>
+ </tbody>
+ </table>
+ </div>
+<br>
+<h3 onClick="func('tq');">TECHINCAL QUALIFICATIONS</h3>
+<div>
+<p id="tq">C, C++, JAVA, HTML, XML.</p>
+</div>
+<br>
+<h3 onClick="func('sa');">SELECTED ACCOMPLISHMENTS</h3>
+<div>
+<ul id ="sa">
+<li>Selected for Mission R&D 2018 course.</li>
+<li>Attended a workshop on 'Web Development' during first year of btech.</li>
+</ul>
+</div>
+<br>
+<h3 onClick="func('strn');">STRENGTHS</h3>
+<div>
+<ul id ="strn">
+<li>Ease to work in team and being a motivator for team members.</li>
+<li>Good stress management levels.</li>
+<li>Love for my passion drives me towards it.</li>
+<li>Good leadership qualities.</li>
+<li>Quick learner.</li>
+</ul>
+</div>
+<br>
+<h3 onClick="func('pd')";>PERSONAL DETAILS</h3>
+<div id="pd">
+<p><span id="leftel">Name:</span><span id="rightel">B. Sai Chaitanya</span></p><br>
+<p><span id="leftel">Father's Name:</span><span id="rightel">B. Srinivasa Rao</span></p><br>
+<p><span id="leftel">Date of birth:</span><span id="rightel">6th October 1998</span></p><br>
+<p><span id="leftel">Gender:</span><span id="rightel">Male</span></p><br>
+<p><span id="leftel">Nationality:</span><span id="rightel">Indian</span></p><br>
+<p><span id="leftel">Marital Status:</span><span id="rightel">Unmarried</span></p><br>
+<p><span id="leftel">Hobbies:</span><span id="rightel">Watching movies</span></p><br>
+<p><span id="leftel">Languages known:</span><span id="rightel">English, Telugu</span></p><br>
+</div>
+</div>
+</div>
+</body>
+</html>
